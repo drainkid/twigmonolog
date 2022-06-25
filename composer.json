@@ -1,0 +1,13 @@
+{
+    "name": "root/chat",
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "src/Controllers/"
+        }
+    },
+    
+    "require": {
+        "twig/twig": "^3.0",
+        "monolog/monolog": "^2.6"
+    }
+}
